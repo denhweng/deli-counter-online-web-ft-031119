@@ -20,6 +20,7 @@ def line(array)
   end 
 end 
 
+def now_serving
  if array.empty? == true 
     puts "There is nobody waiting to be served!"
   elsif array.empty? == false 
